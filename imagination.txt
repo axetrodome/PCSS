@@ -1,0 +1,55 @@
+tools
+-laravel
+-vue
+-sass
+-bootstrap
+
+users
+-admin
+-member
+-clerk
+-groomers/vets
+
+
+
+permissions
+-admin
+	-wiki (search disease, cause, effect)
+	-scheduling
+-member
+	-scheduling
+
+
+scope
+-wiki
+-scheduling
+-login/register
+
+schema
+	-members
+		-id
+		-name
+		-email
+		-no
+
+	-roles
+		-id
+		-member_id
+		-permission		
+
+	-schedules
+		-id
+		-member_id
+		-date_scheduled
+		-time_scheduled
+		-status
+
+	-transactions
+		-id
+		-schedule_id
+		-total
+		-amount_paid
+		-discount
+		-change
+		-description
+		-status
