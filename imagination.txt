@@ -26,30 +26,30 @@ scope
 -login/register
 
 schema
-	-members
-		-id
-		-name
-		-email
-		-no
+-members
+	-id
+	-name
+	-email
+	-no
 
-	-roles
-		-id
-		-member_id
-		-permission		
+-roles
+	-id
+	-member_id
+	-permission		
 
-	-schedules
-		-id
-		-member_id
-		-date_scheduled
-		-time_scheduled
-		-status
+-schedules
+	-id
+	-member_id
+	-date_scheduled
+	-time_scheduled
+	-status
 
-	-transactions
-		-id
-		-schedule_id
-		-total
-		-amount_paid
-		-discount
-		-change
-		-description
-		-status
+-transactions
+	-id
+	-schedule_id
+	-total
+	-amount_paid
+	-discount
+	-change
+	-description
+	-status
