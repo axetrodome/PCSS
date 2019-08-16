@@ -2,7 +2,8 @@ tools
 -laravel
 -vue
 -sass
--bootstrap
+-undecided (bootstrap, antd, materialize)
+-tiptap (A rich-text editor for Vue.js)
 
 users
 -admin
