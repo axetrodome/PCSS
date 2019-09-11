@@ -7,3 +7,7 @@ Progress
 - [x] Add and Configure seeders - September 11, 2019 8:00 - 10:07
 - [ ] Configure passport
 - [ ] Do Basic requests
+- [ ] Login
+- [ ] Register
+- [ ] middlewares
+- [ ] Test Model relationships
